@@ -2,13 +2,13 @@ import React from "react";
 
 //create your first component
 const Navbar = () => {
-	return ( <div className="container-fluid">
-  <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	return ( 
+  <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <div className="container">
     <a className="navbar-brand" href="#">
       Start Bootstrap
     </a>
-   
-    <div className="navbar-nav ml-auto" id="navbarNav">
+    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item active">
           <a className="nav-link" href="#">
@@ -36,8 +36,8 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-  </nav>
 </div>
+</nav>
 );
 };
 
